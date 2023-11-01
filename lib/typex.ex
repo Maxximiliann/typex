@@ -77,7 +77,7 @@ defmodule Typex do
       'Bitstring'
 
   """
-  @spec typeof(any()) :: char_list
+  @spec typeof(any()) :: charlist
 
   def typeof(arg), do: _typeof(arg)
   defp _typeof(arg) when is_nil(arg), do: 'Nil'
