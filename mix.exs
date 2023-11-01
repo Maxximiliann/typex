@@ -8,7 +8,7 @@ defmodule Typex.Mixfile do
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      description: "A module for checking the type and values of an argument",
-     package: package,
+     package: package(),
      deps: deps()]
   end
 
